@@ -1,7 +1,7 @@
 module.exports = {
   plugins: [
-    { src: 'plugins/element-ui.js', ssr: true },
-    { src: 'plugins/vue-i18n.js', injectAs: 'i18n' }
+    { src: 'plugins/vue-i18n.js', injectAs: 'i18n' },
+    { src: 'plugins/vuetify' }
   ],
   /*
   ** Headers of the page,
