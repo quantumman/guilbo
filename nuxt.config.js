@@ -1,7 +1,12 @@
+const { join } = require('path')
+
 module.exports = {
   plugins: [
     { src: 'plugins/vue-i18n.js', injectAs: 'i18n' },
     { src: 'plugins/vuetify' }
+  ],
+  css: [
+    { src: join(__dirname, 'css/app.styl'), lang: 'styl' }
   ],
   /*
   ** Headers of the page,
